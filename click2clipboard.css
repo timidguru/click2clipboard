@@ -1,0 +1,10 @@
+span.click2clipboard {
+    cursor: pointer;
+}
+span.click2clipboard:after {
+    content: "ⓒ";
+    font-size: x-small;
+    margin-left: 2px;
+    vertical-align: text-top;
+    color: #f55;
+}
